@@ -21,8 +21,8 @@ allprojects {
         maven {
             url "http://maven.eightsquare.co:8081/artifactory/libs-release-local"
             credentials {
-                username = "eremitsdkdev"
-                password = "erem!tsdkd@v"
+                username = "______"
+                password = "______"
             }
         }
         maven { url 'https://zendesk.jfrog.io/zendesk/repo' }
