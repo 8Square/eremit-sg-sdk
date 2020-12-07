@@ -21,6 +21,7 @@ Integration Steps
                 password = "" //todo: add password
             }
         }
+        maven { url 'https://zendesk.jfrog.io/zendesk/repo' }
     }
 }
 ```
