@@ -28,7 +28,7 @@ Integration Steps
 2. Add the dependency in your application module's build.gradle
 ```gradle
   dependencies {
-   implementation 'com.eightsquarei.eremitsgsdk:remit:1.0.0.13'
+   implementation 'com.eightsquarei.eremitsgsdk:remit:1.0.0.14'
   }
 ```
 
