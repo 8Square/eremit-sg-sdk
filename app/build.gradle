@@ -40,6 +40,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     //Remit SDK
-    implementation 'com.eightsquarei.eremitsgsdk:remit:1.0.0.17'
+    implementation 'com.eightsquarei.eremitsgsdk:remit:1.0.0.18'
 
 }

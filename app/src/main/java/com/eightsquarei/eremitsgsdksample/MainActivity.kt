@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         startSdkButton.setOnClickListener {
             EremitSdk.Builder()
                 .apiKey("api_key_here")
-                .env(Env.SIT)
+                .env(Env.UAT)
                 .build().start(this)
         }
     }

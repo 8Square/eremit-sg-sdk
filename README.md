@@ -28,7 +28,7 @@ Integration Steps
 2. Add the dependency in your application module's build.gradle
 ```gradle
   dependencies {
-   implementation 'com.eightsquarei.eremitsgsdk:remit:1.0.0.17'
+   implementation 'com.eightsquarei.eremitsgsdk:remit:1.0.0.18'
   }
 ```
 
@@ -43,15 +43,14 @@ Integration Steps
 ```kotlin
     EremitSdk.Builder()
                    .apiKey("api_key_here")
-                   .env(Env.SIT)
+                   .env(Env.UAT)
                    .build().start(this)
 ```
   **Parameters**
   * `apiKey` - Get valid license key from support team
   * `envType`
-    1. `EnvType.SIT`
-    2. `EnvType.UAT`
-    3. `EnvType.PROD`
+    1. `EnvType.UAT`
+    2. `EnvType.PROD`
 
 
 Notes
