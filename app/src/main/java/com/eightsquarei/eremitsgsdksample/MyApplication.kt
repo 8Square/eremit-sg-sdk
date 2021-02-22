@@ -1,5 +1,5 @@
 package com.eightsquarei.eremitsgsdksample
 
-import com.app.m1remit.RemitApplication
+import com.eightsquarei.sgsdk.RemitApplication
 
 class MyApplication : RemitApplication() {}
