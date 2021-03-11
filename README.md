@@ -28,7 +28,7 @@ Integration Steps
 2. Add the dependency in your application module's build.gradle
 ```gradle
   dependencies {
-   implementation 'com.eightsquarei.eremitsgsdk:remit:1.0.0.21'
+   implementation 'com.eightsquarei.eremitsgsdk:remit:1.0.0.22'
   }
 ```
 
@@ -47,10 +47,10 @@ Integration Steps
                    .build().start(this)
 ```
   **Parameters**
-  * `apiKey` - Get valid license key from support team
+  * `apiKey` - Get valid license key from support team. API key for UAT and PROD are different.
   * `envType`
-    1. `EnvType.UAT`
-    2. `EnvType.PROD`
+    1. `Env.UAT` - for integration and testing
+    2. `Env.PROD` - for production
 
 
 Notes
