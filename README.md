@@ -78,4 +78,26 @@ or `Static interface methods are only supported starting with Android N (--min-a
     mavenCentral()
 ```
 
+Migration from 1.0.0.20 to 1.0.0.21
+------------------------------------
+
+1. Change import
+  ```kotlin 
+    import com.app.m1remit.EremitSdk
+    import com.app.m1remit.model.enum_type.Env
+  ```
+  to
+  ```kotlin
+    import com.eightsquarei.sgsdk.EremitSdk
+    import com.eightsquarei.sgsdk.model.enum_type.Env
+  ```
+
+2. Change import
+  ```kotlin
+  import com.app.m1remit.RemitApplication
+  ```
+  to 
+  ```kotlin
+  import com.eightsquarei.sgsdk.RemitApplication
+  ```
 
